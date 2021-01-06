@@ -1,0 +1,23 @@
+.login {
+  display: grid;
+  place-items: center;
+  /* the upper two equally space things out in the center */
+  height: 100vh;
+  /* it will take the space it can */
+  background-color: black;
+}
+
+.login > img {
+  width: 50%;
+  object-fit: contain;
+  /* the original is width: 100% but it looks wierd on my cp so I change to this object-fit is to keep the aspect ratio */
+}
+
+.login > a {
+  padding: 20px;
+  background-color: #1db954;
+  border-radius: 99px;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+}
